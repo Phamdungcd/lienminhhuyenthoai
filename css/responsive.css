@@ -1,0 +1,409 @@
+@media (max-width: 575px) {
+    body {
+        overflow-x: hidden;
+        padding: 0;
+        margin: 0;
+    }
+    .wrapper .container {
+        padding-bottom: 0;
+    }
+    .navbar,
+    .account,
+    .diamon-left,
+    .diamon-right,
+    .border{
+        display: none;
+    }
+    .container {
+        padding: 0 6%;
+    }
+    .language i {
+        font-size: 22px;
+    }
+    .header .logo svg {
+        height: 32px;
+        width: 95px;
+    }
+    .header .menu-icon {
+        display: block;
+    }
+    .wrapper-title {
+        padding-top: 180px;
+    }
+    .category-title .title {
+        position: relative;
+        top: -50px;
+        bottom: -200px;
+    }
+    .champion-list {
+        margin-top: -30px;
+    }
+    .champion-list {
+        display: block;
+    }
+    .champion-item {
+        height: 80px;
+        margin-bottom: 0;
+        margin-right: 0;
+        position: relative;
+        width: 100%;
+    }
+    .champion-avatar {
+        position: absolute;
+        top: 0;
+        right: auto;
+        bottom: 0;
+        left: 0;
+        background-size: 300%;
+        width: 20%;
+    }
+    .champion-content {
+        background-color: rgba(0,0,0,0);
+        border-top: 0;
+        left: 26%;
+        text-align: left;
+        top: 0;
+    }
+    .champion-action {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: auto;
+        background-color: rgba(0,0,0,0);
+        border-top: 0;
+        height: 80px;
+        line-height: 80px;
+        width: 50%;
+        visibility: visible;
+        opacity: 1;
+        border: none;
+    }
+    .champion-action span {
+        font-size: 12px;
+        letter-spacing: 3px;
+    }
+    .champion-box:hover {
+        transform: scale(1);
+        border: none;
+        background-color: #131315;
+    }
+    .footer .legal-links {
+        flex-direction: column;
+        text-align: center;
+        user-select: none;
+        font-weight: 700;
+        padding: 0 0 28px;
+        font-size: 13px;
+        letter-spacing: .08em;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .footer .legal-links li {
+        height: 60px;
+    }
+
+    .riotbar-mobile-menu {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 99999999;
+    }
+    .navbar-mobile {
+        padding-top: 7px;
+    }
+    .subnav-mobile {
+        display: none;
+    }
+    .subnav-mobile .subDisplay {
+        display: block;
+    }
+    .subnav-mobile {
+        display: none;
+    }
+    .subnav-mobile.displayNav {
+        display: block;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+    body {
+        overflow-x: hidden;
+        padding: 0;
+        margin: 0;
+    }
+    .wrapper .container {
+        padding-bottom: 0;
+    }
+    .navbar,
+    .account,
+    .diamon-left,
+    .diamon-right,
+    .border{
+        display: none;
+    }
+    .container {
+        padding: 0 6%;
+    }
+    .language i {
+        font-size: 22px;
+    }
+    .header .logo svg {
+        height: 32px;
+        width: 95px;
+    }
+    .header .menu-icon {
+        display: block;
+    }
+    .wrapper-title {
+        padding-top: 180px;
+    }
+    .category-title .title {
+        position: relative;
+        top: -50px;
+        bottom: -200px;
+    }
+    .champion-list {
+        margin-top: -30px;
+    }
+    .champion-list {
+        display: block;
+    }
+    .champion-item {
+        height: 80px;
+        margin-bottom: 0;
+        margin-right: 0;
+        position: relative;
+        width: 100%;
+    }
+    .champion-avatar {
+        position: absolute;
+        top: 0;
+        right: auto;
+        bottom: 0;
+        left: 0;
+        background-size: 300%;
+        width: 20%;
+    }
+    .champion-content {
+        background-color: rgba(0,0,0,0);
+        border-top: 0;
+        left: 24%;
+        text-align: left;
+        top: 0;
+    }
+    .champion-action {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: auto;
+        background-color: rgba(0,0,0,0);
+        border-top: 0;
+        height: 80px;
+        line-height: 80px;
+        width: 50%;
+        visibility: visible;
+        opacity: 1;
+        border: none;
+    }
+    .champion-action span {
+        font-size: 12px;
+        letter-spacing: 3px;
+    }
+    .champion-box:hover {
+        transform: scale(1);
+        border: none;
+        background-color: #131315;
+    }
+    .footer .legal-links {
+        flex-direction: column;
+        text-align: center;
+        user-select: none;
+        font-weight: 700;
+        padding: 0 0 28px;
+        font-size: 13px;
+        letter-spacing: .08em;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .footer .legal-links li {
+        height: 60px;
+    }
+
+    .riotbar-mobile-menu {
+        position: fixed;
+        top: 0;
+        right: 0;
+        min-width: 600px;
+        z-index: 99999999;
+    }
+    .navbar-mobile {
+        padding-top: 7px;
+    }
+    .subnav-mobile {
+        display: none;
+    }
+    .subnav-mobile .subDisplay {
+        display: block;
+    }
+    .subnav-mobile {
+        display: none;
+    }
+    .subnav-mobile.displayNav {
+        display: block;
+    }
+}
+
+@media (width: 768px) and (max-width: 992px) {
+    body {
+        overflow-x: hidden;
+        padding: 0;
+        margin: 0;
+    }
+    .wrapper .container {
+        padding-bottom: 0;
+    }
+    .navbar,
+    .account,
+    .border{
+        display: none;
+    }
+    .container {
+        padding: 0 2%;
+    }
+    .language i {
+        font-size: 22px;
+    }
+    .header .logo svg {
+        height: 32px;
+        width: 95px;
+    }
+    .header .menu-icon {
+        display: block;
+    }
+    .wrapper-title {
+        padding-top: 180px;
+    }
+    .category-title .title {
+        position: relative;
+        top: -50px;
+        bottom: -200px;
+    }
+    .wrapper-title {
+        padding: 0 3%;
+        padding-top: 260px;
+    }
+    .champion-box:hover {
+        border: none;
+    }
+    .champion-content {
+        bottom: 22px;
+        width: 122px;
+    }
+    .champion-title {
+        left: -60px !important;
+    }
+    .champion-title span {
+        font-size: 10px;
+    }
+    .champion-list {
+        padding-bottom: 260px;
+        column-gap: 14px;
+    }
+    .champion-avatar {
+        background-position: 83.8683% 1.53417%;
+        width: 122px;
+        height: 324px;
+        opacity: 1;
+    }
+    .champion-action  span {
+        letter-spacing: 0;
+    }
+    .footer .legal-links {
+        flex-direction: column;
+        text-align: center;
+        user-select: none;
+        font-weight: 700;
+        padding: 0 0 28px;
+        font-size: 13px;
+        letter-spacing: .08em;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .footer .legal-links li {
+        height: 60px;
+    }
+    .riotbar-mobile-menu {
+        min-width: 484px;
+        top: 0;
+        z-index: 99999999;
+    }
+    .subnav-mobile {
+        display: none;
+    }
+    .subnav-mobile.displayNav {
+        display: block;
+    }
+}
+
+@media screen  and (width: 1024px) {
+    body {
+        overflow-x: hidden;
+        padding: 0;
+        margin: 0;
+    }
+    .wrapper .container {
+        padding-bottom: 0;
+    }
+    .navbar,
+    .account,
+    .border{
+        display: none;
+    }
+    .container {
+        padding: 0 2%;
+    }
+    .language i {
+        font-size: 22px;
+    }
+    .header .logo svg {
+        height: 32px;
+        width: 95px;
+    }
+    .header .menu-icon {
+        display: block;
+    }
+    .wrapper-title {
+        padding-top: 180px;
+    }
+    .category-title .title {
+        position: relative;
+        top: -50px;
+        bottom: -200px;
+    }
+    .wrapper-title {
+        padding: 0 3%;
+        padding-top: 260px;
+    }
+    .champion-list {
+        column-gap: 8px;
+        padding-bottom: 260px;
+    }
+    .champion-title {
+        left: -38px;
+    }
+    .riotbar-mobile-menu {
+        position: fixed;
+        top: 0;
+        min-width: 484px;
+        z-index: 999999999999;
+    }
+    .subnav-mobile {
+        display: none;
+    }
+    .subnav-mobile.displayNav {
+        display: block;
+    }
+}
