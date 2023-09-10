@@ -1,21 +1,19 @@
-const language = document.getElementById('js-language');
-const languageOption = document.getElementById('js-language-option');
+const tgLanguage = document.querySelector('.tgLanguage');
+const switchDrop = document.querySelector('.lang_switch-drop');
 // language option
-language.onclick = function() {
-  languageOption.classList.toggle('display');;
+tgLanguage.onclick = function() {
+  switchDrop.classList.toggle('active');
 }
 
 // search
-const clickSearch = document.getElementById('js-search');
-const searchDisplay = document.getElementById('js-search-display');
-const closeSearch = document.getElementById('js-close');
-
-clickSearch.onclick = function() {
-  searchDisplay.style.transform = 'translateY(0)';
+const searchBtn = document.querySelector('.searchBtn');
+const searchBox = document.querySelector('.search-modal');
+const closeBtn = document.getElementById('closeBtn');
+searchBtn.onclick = function() {
+  searchBox.classList.toggle('active')
 }
-// close search
-closeSearch.onclick = function() {
-  searchDisplay.style.transform = 'translateY(-100%)';
+closeBtn.onclick = function() {
+  searchBox.classList.remove('active')
 }
 
 // scroll
@@ -32,25 +30,21 @@ window.onscroll = function() {
 }
 
 // navlist
-const jsMenu = document.getElementById('js-menu');
-const menuIcon = document.querySelector('.menu-icon');
-const closeMenu = document.querySelector('.menu-icon_close');
-menuIcon.onclick = () => {
-  jsMenu.style.opacity = '1';
-  jsMenu.style.visibility = 'visible';
-  jsMenu.style.transform = 'translateX(0)'
+const listMB_Btn = document.querySelector('.navBtn');
+const list2_MB = document.querySelector('.navbar_mobile ul li ul');
+listMB_Btn.onclick = () => {
+  list2_MB.classList.toggle('active');
 }
 
-closeMenu.onclick = () => {
-  jsMenu.style.opacity = '0';
-  jsMenu.style.visibility = 'hidden';
+// header MB
+const menuMB_Btn = document.querySelector('.menuBtn');
+const nav_Btn = document.querySelector('.header_mobile');
+menuMB_Btn.onclick = () => {
+  nav_Btn.style.transform = 'translateX(0)';
 }
 
-const btnIcon = document.getElementById('btn-icon');
-const subNav = document.getElementById('js-navbar-mobile');
-btnIcon.onclick = (e) => {
-  subNav.classList.toggle('displayNav');
-  e.preventDefault();
+const closeMB_Btn = document.querySelector('.mobileBtn');
+closeMB_Btn.onclick = () => {
+  nav_Btn.style.transform = 'translateX(100%)';
 }
 
-// search mobile
