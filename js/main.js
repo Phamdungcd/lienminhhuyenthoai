@@ -7,10 +7,18 @@ tgLanguage.onclick = function() {
 
 // search
 const searchBtn = document.querySelector('.searchBtn');
+const searchMB_Btn = document.querySelector('.searchMB_Btn');
 const searchBox = document.querySelector('.search-modal');
 const closeBtn = document.getElementById('closeBtn');
 searchBtn.onclick = function() {
   searchBox.classList.toggle('active')
+}
+closeBtn.onclick = function() {
+  searchBox.classList.remove('active')
+}
+searchMB_Btn.onclick = function() {
+  searchBox.classList.toggle('active')
+  nav_Btn.style.transform = 'translateX(100%)';
 }
 closeBtn.onclick = function() {
   searchBox.classList.remove('active')
